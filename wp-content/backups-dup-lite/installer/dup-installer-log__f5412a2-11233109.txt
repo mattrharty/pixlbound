@@ -1,0 +1,551 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 12:27:42
+* VERSION: 1.4.7.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.22                                |7.4.22
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-08-11 23:31:09
+WP VERSION__________: 5.8
+DUP VERSION_________: 1.4.7.1
+DB__________________: 10.4.20
+DB TABLES___________: 28
+DB ROWS_____________: 14,485
+DB FILE SIZE________: 41.95MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.22 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.4.22
+DOC ROOT____________: "C:/xampp/htdocs/egghop"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/egghop/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/egghop/egghop_[HASH]_20220811233109_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 12:27:42 - RUNTIME: 0.0019 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:28:05
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.20 -- Build Server: 10.4.20
+FILE SIZE:	dup-database__[HASH].sql (30.15MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/egghop/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	284
+
+wp_mediboundcommentmeta: (0)
+wp_mediboundcomments: (0)
+wp_mediboundduplicator_packages: (0)
+wp_mediboundlinks: (0)
+wp_mediboundnextend2_image_storage: (13)
+wp_mediboundnextend2_section_storage: (2)
+wp_mediboundnextend2_smartslider3_generators: (0)
+wp_mediboundnextend2_smartslider3_sliders: (1)
+wp_mediboundnextend2_smartslider3_sliders_xref: (0)
+wp_mediboundnextend2_smartslider3_slides: (8)
+wp_mediboundngg_album: (0)
+wp_mediboundngg_gallery: (1)
+wp_mediboundngg_pictures: (73)
+wp_mediboundoptions: (174)
+wp_mediboundpostmeta: (11207)
+wp_mediboundposts: (1667)
+wp_mediboundsimply_static_pages: (747)
+wp_mediboundterm_relationships: (4)
+wp_mediboundterm_taxonomy: (5)
+wp_mediboundtermmeta: (0)
+wp_mediboundterms: (5)
+wp_mediboundusermeta: (26)
+wp_mediboundusers: (1)
+wp_mediboundyoast_indexable: (179)
+wp_mediboundyoast_indexable_hierarchy: (85)
+wp_mediboundyoast_migrations: (23)
+wp_mediboundyoast_primary_term: (0)
+wp_mediboundyoast_seo_links: (33)
+Removed '51' cache/transient rows
+
+INSERT DATA RUNTIME: 9.7751 sec.
+STEP-2 COMPLETE @ 12:28:15 - RUNTIME: 9.7848 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:28:30
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "egghop"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/medibound"
+path_new______________: "C:/xampp/htdocs/egghop"
+siteurl_______________: "http://localhost/egghop"
+url_old_______________: "http://localhost/medibound"
+url_new_______________: "http://localhost/egghop"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_mediboundcommentmeta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundcomments"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundduplicator_packages"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundlinks"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundnextend2_image_storage"______________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundnextend2_section_storage"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundnextend2_smartslider3_generators"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundnextend2_smartslider3_sliders"_______[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundnextend2_smartslider3_sliders_xref"__[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundnextend2_smartslider3_slides"________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundngg_album"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundngg_gallery"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundngg_pictures"________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundoptions"_____________________________[ROWS:   174][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundpostmeta"____________________________[ROWS: 11207][PG:   4][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundposts"_______________________________[ROWS:  1667][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundsimply_static_pages"_________________[ROWS:   747][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundterm_relationships"__________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundterm_taxonomy"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundtermmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundterms"_______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundusermeta"____________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundusers"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundyoast_indexable"_____________________[ROWS:   179][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundyoast_indexable_hierarchy"___________[ROWS:    85][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundyoast_migrations"____________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+
+EVALUATE TABLE: "wp_mediboundyoast_primary_term"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mediboundyoast_seo_links"_____________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  2:"C:\/xampp\/htdocs\/medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  4:"C:\xampp\htdocs\medibound" =======================> "C:/xampp/htdocs/egghop"
+	SEARCH  5:"C:\\xampp\\htdocs\\medibound" ====================> "C:\/xampp\/htdocs\/egghop"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cmedibound" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fegghop"
+	SEARCH  7:"//localhost/medibound" ===========================> "//localhost/egghop"
+	SEARCH  8:"\/\/localhost\/medibound" ========================> "\/\/localhost\/egghop"
+	SEARCH  9:"%2F%2Flocalhost%2Fmedibound" =====================> "%2F%2Flocalhost%2Fegghop"
+	SEARCH 10:"https://localhost/egghop" ========================> "http://localhost/egghop"
+	SEARCH 11:"https:\/\/localhost\/egghop" =====================> "http:\/\/localhost\/egghop"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fegghop" ================> "http%3A%2F%2Flocalhost%2Fegghop"
+--------------------------------------
+SCANNED:	Tables:28 	|	 Rows:14254 	|	 Cells:107968 
+UPDATED:	Tables:8 	|	 Rows:3645 	|	 Cells:4786 
+ERRORS:		0 
+RUNTIME:	5.919100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:28:36 - RUNTIME: 6.0548 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
